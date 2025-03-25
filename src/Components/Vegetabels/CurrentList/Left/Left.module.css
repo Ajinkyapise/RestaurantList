@@ -1,0 +1,14 @@
+.Left {
+  width: 48%;
+  background-color: #ffffff;
+  padding: 20px; /* Adds spacing inside the container */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for a modern look */
+  border-radius: 8px; /* Rounds the corners slightly */
+  overflow-y: auto; /* Adds vertical scrolling if content overflows */
+  height: 100%; /* Ensures it stretches to match the parent's height */
+  box-sizing: border-box; /* Includes padding in width/height calculations */
+  display: flex; /* Enables flexbox layout */
+  flex-direction: row; /* Aligns content horizontally */
+  align-items: center; /* Vertically centers the content */
+  gap: 10px; /* Adds spacing between child elements */
+}

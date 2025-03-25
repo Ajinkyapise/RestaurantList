@@ -1,0 +1,12 @@
+.item {
+  display: flex; /* Enables flexbox layout for alignment */
+  align-items: center; /* Vertically centers the content */
+  justify-content: space-between; /* Adds space between the item name and actions */
+  padding: 10px; /* Adds internal spacing */
+  margin-bottom: 10px; /* Adds spacing between items */
+  background-color: #ffffff; /* White background for contrast */
+  border: 1px solid #e0e0e0; /* Subtle border for separation */
+  border-radius: 8px; /* Rounds the corners slightly */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  box-sizing: border-box; /* Includes padding in width/height calculations */
+}

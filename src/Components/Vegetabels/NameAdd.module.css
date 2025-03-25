@@ -1,0 +1,11 @@
+.NameAdd {
+  display: flex; /* Enables flexbox layout */
+  align-items: center; /* Vertically centers the content */
+  justify-content: space-between; /* Adds space between the elements */
+  gap: 10px; /* Adds spacing between the buttons and text */
+  padding: 10px; /* Adds internal spacing */
+  background-color: #f8f9fa; /* Light gray background */
+  border: 1px solid #e0e0e0; /* Subtle border */
+  border-radius: 8px; /* Rounds the corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}

@@ -1,0 +1,9 @@
+.Main {
+  display: flex; /* Enables flexbox layout */
+  justify-content: space-between; /* Aligns children to the left and right */
+  align-items: flex-start; /* Aligns children to the top */
+  width: 100%; /* Ensures the container spans the full width */
+  height: 100%; /* Optional: Adjust height as needed */
+  padding: 20px; /* Adds spacing inside the container */
+  box-sizing: border-box; /* Includes padding in width/height calculations */
+}

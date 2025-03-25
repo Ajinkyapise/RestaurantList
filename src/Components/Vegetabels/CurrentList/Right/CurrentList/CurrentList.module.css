@@ -1,0 +1,10 @@
+.currentList {
+  width: 48%; /* Takes up 48% of the parent container's width */
+  background-color: #f8f9fa; /* Light gray background for better visibility */
+  padding: 20px; /* Adds spacing inside the container */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for a modern look */
+  border-radius: 8px; /* Rounds the corners slightly */
+  overflow-y: auto; /* Adds vertical scrolling if content overflows */
+  height: 100%; /* Ensures it stretches to match the parent's height */
+  box-sizing: border-box; /* Includes padding in width/height calculations */
+}

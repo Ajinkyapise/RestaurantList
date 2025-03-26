@@ -1,15 +1,15 @@
 import React from "react";
-import styles from "./Left.module.css";
+import styles from "./Plastics.module.css";
 
-const Left = () => {
+const Plastics = () => {
   const items = ["Tomato", "Potato", "Carrot", "Onion"]; // Example list of items
 
   return (
-    <div className={styles.Left}>
-      <div>tomato</div>
+    <div className={styles.Plastics}>
+      <div>16Oz</div>
       <button>Add</button>
     </div>
   );
 };
 
-export default Left;
+export default Plastics;

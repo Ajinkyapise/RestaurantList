@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Header.module.css";
-import Buttons from "../../Buttons";
+import Buttons from "../Button/Buttons";
 
 const Header = () => {
   return (

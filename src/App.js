@@ -1,12 +1,10 @@
 import "./App.css";
-import Header from "./Components/Vegetabels/Header/Header";
-import ThingsHeader from "./Components/Vegetabels/ThingsHeader/ThingsHeader";
-import Main from "./Components/Vegetabels/CurrentList/Main";
+import Header from "./Components/Header/Header";
+import Main from "./MainPage/Main";
 function App() {
   return (
     <>
       <Header />
-      <ThingsHeader />
       <Main />
     </>
   );

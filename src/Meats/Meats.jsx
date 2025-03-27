@@ -1,16 +1,25 @@
 import React from "react";
+import { useMeats } from "../Context/MeatContext";
 import styles from "./Meats.module.css";
 
-const Meats = () => {
-  const items = ["Tomato", "Potato", "Carrot", "Onion"]; // Example list of items
-  const handleAddButton = () => {
-    console.log("Add button clicked");
+const Meats = ({ onAddItem }) => {
+  const { meats } = useMeats();
+
+  const handleAdd = (item) => {
+    if (onAddItem) {
+      onAddItem(item);
+    }
   };
 
   return (
     <div className={styles.Meats}>
-      <div>Chicken</div>
-      <button onClick={handleAddButton}>Add</button>
+      <h2>Meats</h2>
+      {meats.map((meat) => (
+        <div key={meat} className={styles.item}>
+          <span>{meat}</span>
+          <button onClick={() => handleAdd(meat)}>Add</button>
+        </div>
+      ))}
     </div>
   );
 };
